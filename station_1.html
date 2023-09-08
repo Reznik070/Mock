@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>muuga</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col">
+            <!-- Start: Navigation Clean -->
+            <nav class="navbar navbar-light navbar-expand-md text-left navigation-clean">
+                <div class="container">
+                    <picture class="text-left text-sm-left text-md-left text-lg-left text-xl-left" style="margin: -14px;padding: 0px;"><img data-bs-hover-animate="pulse" src="assets/img/icons/crane.png" style="margin: 0px;padding: 0px;"></picture><a class="navbar-brand" href="#" style="padding: 11px;margin: 8px;">MAIRIS TALLINN</a><button data-toggle="collapse" class="navbar-toggler"
+                        data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navcol-1">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="#">MUUGA AQMS</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="padding: 3px;">Welcome! Ants Vain&nbsp;<picture><img style="height: 35px;width: 35px;" src="assets/img/icons/user.png"></picture></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- End: Navigation Clean -->
+        </div>
+    </div>
+    <div class="row text-left" style="height: 70px;background-color: #d0e1e7;">
+        <div class="col">
+            <nav class="navbar navbar-light navbar-expand-md">
+                <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-2"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><a id="home" class="home-link" href="index.html" style="color: rgb(137,166,197);">Home</a>
+                    <div
+                        class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="margin: 10px;color: rgb(137,166,197);">Monitoring Stations</a>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="">Station 1<div class="modal fade" role="dialog" tabindex="-1" id="modal_1"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><h4 class="modal-title">Modal Title</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div><div class="modal-body"><p>The content of your modal.</p></div><div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div></div></div></div></a>
+                            <a
+                                class="dropdown-item" role="presentation" href="#">Station 2</a><a class="dropdown-item" role="presentation" href="#">Station 3</a></div>
+                </div>
+                <div class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="margin: 10px;color: rgb(137,166,197);">Weather Stations</a>
+                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Weather Station 1</a><a class="dropdown-item" role="presentation" href="#">Weather Station 2</a><a class="dropdown-item" role="presentation" href="#">Weather Staion 3</a></div>
+                </div>
+                <div class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="color: rgb(137,166,197);margin: 15px;">Management</a>
+                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="operators.html">Operators</a><a class="dropdown-item" role="presentation" href="#">locations</a><a class="dropdown-item" role="presentation" href="#">Dispatchers</a><a class="dropdown-item"
+                            role="presentation" href="#">Stations</a><a class="dropdown-item" role="presentation" href="#">Products</a><a class="dropdown-item" role="presentation" href="#">0 Drift</a></div>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-2">
+                    <ul class="nav navbar-nav"></ul>
+                </div>
+        </div>
+        </nav>
+    </div>
+    </div>
+    <div class="row" style="height: 550px;">
+        <div class="col">
+            <div><canvas data-bs-chart="{&quot;type&quot;:&quot;bar&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Revenue&quot;,&quot;backgroundColor&quot;:&quot;#4e73df&quot;,&quot;borderColor&quot;:&quot;#4e73df&quot;,&quot;data&quot;:[&quot;4500&quot;,&quot;5300&quot;,&quot;6250&quot;,&quot;7800&quot;,&quot;9800&quot;,&quot;15000&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:false,&quot;position&quot;:&quot;left&quot;,&quot;reverse&quot;:false},&quot;title&quot;:{&quot;display&quot;:true,&quot;text&quot;:&quot;CO2 [ppm]&quot;}}}"></canvas></div>
+        </div>
+    </div>
+    <div class="row" style="height: 250px;"></div>
+    <div class="row" style="height: 550px;">
+        <div class="col">
+            <div><canvas data-bs-chart="{&quot;type&quot;:&quot;horizontalBar&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Revenue&quot;,&quot;backgroundColor&quot;:&quot;#4e73df&quot;,&quot;borderColor&quot;:&quot;#4e73df&quot;,&quot;data&quot;:[&quot;4500&quot;,&quot;5300&quot;,&quot;6250&quot;,&quot;7800&quot;,&quot;9800&quot;,&quot;15000&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:false},&quot;title&quot;:{&quot;text&quot;:&quot;NOX [ppm]&quot;,&quot;display&quot;:true}}}"></canvas></div>
+        </div>
+    </div>
+    <div class="row" style="height: 250px;"></div>
+    <div class="row" style="height: 550px;">
+        <div class="col">
+            <div><canvas data-bs-chart="{&quot;type&quot;:&quot;pie&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;,&quot;July&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Revenue&quot;,&quot;backgroundColor&quot;:[&quot;#b5d3ef&quot;,&quot;#b5d3ef&quot;,&quot;#b5d3ef&quot;,&quot;#b5d3ef&quot;,&quot;#b5d3ef&quot;,&quot;#b5d3ef&quot;],&quot;borderColor&quot;:[&quot;#4e73df&quot;,&quot;#4e73df&quot;,&quot;#4e73df&quot;,&quot;#4e73df&quot;,&quot;#4e73df&quot;,&quot;#4e73df&quot;],&quot;data&quot;:[&quot;4500&quot;,&quot;5300&quot;,&quot;6250&quot;,&quot;7800&quot;,&quot;9800&quot;,&quot;15000&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:false,&quot;reverse&quot;:false},&quot;title&quot;:{&quot;display&quot;:true,&quot;text&quot;:&quot;H2S [ppm]&quot;}}}"></canvas></div>
+        </div>
+    </div>
+    <div class="row" style="height: 250px;"></div>
+    <div class="row" style="height: 550px;">
+        <div class="col">
+            <div><canvas data-bs-chart="{&quot;type&quot;:&quot;scatter&quot;,&quot;data&quot;:{&quot;datasets&quot;:[{&quot;label&quot;:&quot;Revenue&quot;,&quot;backgroundColor&quot;:&quot;#4e73df&quot;,&quot;borderColor&quot;:&quot;#4e73df&quot;,&quot;data&quot;:[{&quot;x&quot;:&quot;1&quot;,&quot;y&quot;:&quot;4500&quot;},{&quot;x&quot;:&quot;2&quot;,&quot;y&quot;:&quot;5300&quot;},{&quot;x&quot;:&quot;3&quot;,&quot;y&quot;:&quot;6250&quot;},{&quot;x&quot;:&quot;2&quot;,&quot;y&quot;:&quot;7800&quot;},{&quot;x&quot;:&quot;0&quot;,&quot;y&quot;:&quot;9800&quot;},{&quot;x&quot;:&quot;0.5&quot;,&quot;y&quot;:&quot;15000&quot;}]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:false,&quot;reverse&quot;:false},&quot;title&quot;:{&quot;display&quot;:true,&quot;text&quot;:&quot;NO2 [ppm]&quot;}}}"></canvas></div>
+        </div>
+    </div>
+    <div class="row" style="height: 210px;"></div>
+    <!-- Start: Footer Basic -->
+    <div class="footer-basic" style="height: 174px;background-color: rgb(208,225,231);">
+        <footer>
+            <!-- Start: Social Icons -->
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <!-- End: Social Icons -->
+            <!-- Start: Links -->
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <!-- End: Links -->
+            <!-- Start: Copyright -->
+            <p class="copyright" style="height: 32px;">MAIRIS TALLINN © 2021</p>
+            <!-- End: Copyright -->
+        </footer>
+    </div>
+    <!-- End: Footer Basic -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+</body>
+
+</html>
